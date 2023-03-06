@@ -25,4 +25,5 @@ main_menu.add.button("Hard", run_game, 4)
 main_menu.add.button("EXTREME", run_game, 2)
 main_menu.add.button("SUICIDE", run_game, 1)
 
-main_menu.mainloop(screen)
+def start():
+    main_menu.mainloop(screen)
