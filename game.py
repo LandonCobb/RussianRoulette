@@ -61,7 +61,7 @@ class Game:
 
     def punishment(self):
         if self.difficulty == 1:
-            # os.system("shutdown /s /t 1")
+            os.system("shutdown /s /t 1")
             print("shutdown")
         else:
             match random.randint(1, 3):
